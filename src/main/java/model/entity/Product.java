@@ -5,10 +5,12 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import model.enums.ProductType;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.logging.Level;
 
 @Entity
@@ -58,7 +60,7 @@ public class Product {
 
     @Enumerated(EnumType.STRING)
     @Column(name = "product_type", nullable = false)
-    private ProductTipe productTipe;
+    private ProductType productType;
 
     @OneToOne(mappedBy = "products",cascade = CascadeType.ALL)
     private DigitalProduct digitalProduct;
