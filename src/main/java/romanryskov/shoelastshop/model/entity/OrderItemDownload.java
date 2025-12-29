@@ -45,9 +45,6 @@ public class OrderItemDownload {
     @Column(name = "activated_at")
     private  LocalDateTime activatedAt;
 
-    @Column(name = "activated_at")
-    private LocalDateTime activatedAt;
-
     @Column(name = "created_at")
     private LocalDateTime createdAt;
 
