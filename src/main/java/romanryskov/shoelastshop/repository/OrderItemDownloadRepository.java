@@ -1,6 +1,6 @@
-package repository;
+package romanryskov.shoelastshop.repository;
 
-import model.entity.OrderItemDownload;
+import romanryskov.shoelastshop.model.entity.OrderItemDownload;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

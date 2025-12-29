@@ -1,4 +1,4 @@
-package model.enums;
+package romanryskov.shoelastshop.model.enums;
 
 public enum UserRole {
     ADMIN,

@@ -1,8 +1,8 @@
-package repository;
+package romanryskov.shoelastshop.repository;
 
-import model.entity.Order;
-import model.entity.User;
-import model.enums.OrderStatus;
+import romanryskov.shoelastshop.model.entity.Order;
+import romanryskov.shoelastshop.model.entity.User;
+import romanryskov.shoelastshop.model.enums.OrderStatus;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

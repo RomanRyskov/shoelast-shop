@@ -1,11 +1,11 @@
-package model.entity;
+package romanryskov.shoelastshop.model.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import model.enums.UserRole;
+import romanryskov.shoelastshop.model.enums.UserRole;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;

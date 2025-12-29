@@ -1,11 +1,11 @@
-package model.entity;
+package romanryskov.shoelastshop.model.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import model.enums.ProductType;
+import romanryskov.shoelastshop.model.enums.ProductType;
 
 import java.math.BigDecimal;
 

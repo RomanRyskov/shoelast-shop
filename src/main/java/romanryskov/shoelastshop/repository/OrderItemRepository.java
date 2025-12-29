@@ -1,6 +1,6 @@
-package repository;
+package romanryskov.shoelastshop.repository;
 
-import model.entity.OrderItem;
+import romanryskov.shoelastshop.model.entity.OrderItem;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface OrderItemRepository extends JpaRepository<OrderItem, Long> {

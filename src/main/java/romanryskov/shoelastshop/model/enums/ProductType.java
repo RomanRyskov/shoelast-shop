@@ -1,4 +1,4 @@
-package model.enums;
+package romanryskov.shoelastshop.model.enums;
 
 
 import lombok.Getter;

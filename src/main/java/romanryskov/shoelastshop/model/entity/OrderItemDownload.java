@@ -1,4 +1,4 @@
-package model.entity;
+package romanryskov.shoelastshop.model.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
