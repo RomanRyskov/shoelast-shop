@@ -11,7 +11,6 @@ import java.math.BigDecimal;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.logging.Level;
 
 @Entity
 @AllArgsConstructor
@@ -48,7 +47,7 @@ public class Product {
 
     //Видео
     @Column(name = "video_url")
-    private String videUrl;
+    private String videoUrl;
 
     //3D viewer
     @Column(name = "viewer_url",length = 2000)
@@ -62,16 +61,16 @@ public class Product {
     @Column(name = "product_type", nullable = false)
     private ProductType productType;
 
-    @OneToOne(mappedBy = "products",cascade = CascadeType.ALL)
+    @OneToOne(mappedBy = "product",cascade = CascadeType.ALL)
     private DigitalProduct digitalProduct;
 
-    @OneToMany(mappedBy = "products")
+    @OneToMany(mappedBy = "product")
     private List<OrderItem> orderItem= new ArrayList<>();
 
     @Column(name = "created_at")
     private LocalDateTime createdAt;
 
-    @Column(name = "update_at")
+    @Column(name = "updated_at")
     private LocalDateTime  updatedAt;
 
     @PrePersist
